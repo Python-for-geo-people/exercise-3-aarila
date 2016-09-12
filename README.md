@@ -61,6 +61,24 @@ to use a conditional statement to produce the output. :
         -------------------
         -------------------
 
+## Conditional statements: Working with projections
+
+In Python there is a handy way of asking input from the user using `input` function such as:
+
+   ```python
+   >>> name = input('What is your name?\n')
+   ... What is your name?
+   ... 'Henrikki'
+   >>> print("Hello", name)
+   ... 'Hello Henrikki'
+   ```
+
+- Create a simple program that asks "Determine the EPSG value of the input shapefile."
+    - If the user says 4326 print "EPSG value 4326 corresponds to WGS84"
+    - If the user says 3067 print “EPSG value 3067 corresponds to ETRS-TM35FIN"
+    - If the user says 2392 print “EPSG value 2392 corresponds to KKJ / Finland zone2"
+    - If the user mentions any other EPSG value print “There are so many spatial references..I don’t know them all, sorry."
+
 # Answers
 
 ## Problem 1
