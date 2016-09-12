@@ -16,8 +16,7 @@ Create a variable called *name* with text "Animal".
 
 Here we practice looping over numbers and concatenating strings and numbers. 
 
-a) 
-Iterate over numbers 0-30 and print out text as follows: 
+1. Iterate over numbers 0-30 and print out text as follows: 
 
 
     Animal_0
@@ -28,9 +27,8 @@ Iterate over numbers 0-30 and print out text as follows:
     Animal_30
 
 
-b)
-Create an empty string variable called *text* (`text = "" `). 
-Update the *text* variable to contain text as follows (notice --> escape character (`\n`) for newline required): 
+2. Create an empty string variable called *text* (`text = "" `). Update the *text* variable to contain text as follows 
+(notice --> escape character (`\n`) for newline required): 
 
     Animal_10.shp
     Animal_11.shp
@@ -41,17 +39,15 @@ Update the *text* variable to contain text as follows (notice --> escape charact
 
 ### Nested loops (optional)
 
-_NOTE: I don't know if we have time to go through 
+_NOTE: I don't know if we have time to go through nested loops during the lecture 
 
-a)
-Create variable *star* with text "\*" and an empty string variable *text*. Use (nested) for-loops to produce following formation: *(2 pnts)*
+1. Create variable *star* with text "\*" and an empty string variable *text*. Use (nested) for-loops to produce following formation: *(2 pnts)*
 
         *******
         *******
         *******
        
-b)
-Create variables *star* with text "\*", *line* with text "-" and an empty text variable *flag* (`flag = ""`). 
+2. Create variables *star* with text "\*", *line* with text "-" and an empty text variable *flag* (`flag = ""`). 
 Use (nested) for-loops and variables *star* and *line* to produce following formation into variable *flag* and print out the result as follows. Hint: you will need
 to use a conditional statement to produce the output. : 
 
