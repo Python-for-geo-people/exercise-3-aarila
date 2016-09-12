@@ -66,8 +66,8 @@ to use a conditional statement to produce the output. :
 In Python there is a handy way of asking input from the user using `input` function such as:
 
    ```python
-   >>> name = input('What is your name?\n')
-   ... What is your name?
+   >>> name = input('Please tell me your name:\n')
+   ... Please tell me your name:
    ... 'Henrikki'
    >>> print("Hello", name)
    ... 'Hello Henrikki'
