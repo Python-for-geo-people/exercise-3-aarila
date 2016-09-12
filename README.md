@@ -70,7 +70,7 @@ In Python there is a handy way of asking input from the user using `input` funct
    ... Please tell me your name:
    ... 'Henrikki'
    >>> print("Hello", name)
-   ... 'Hello Henrikki'
+   ... Hello Henrikki
    ```
 
 - Create a simple program that asks "Determine the EPSG value of the input shapefile."
