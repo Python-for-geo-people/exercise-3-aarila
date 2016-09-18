@@ -1,4 +1,4 @@
-# Exercise-3
+# Exercise 3 - `for` loops and conditional statements
 
 The exercise for this week is meant to help you to understand `for` loops and conditional statements in Python.
 Below you have a series of problems in which you are asked to create new script files and write the code necessary to produce the desired results.
