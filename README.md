@@ -37,6 +37,11 @@ Animal_2.shp
 Animal_30.shp
 ```
 
+### Questions for Problem 1
+1. What could be some advantages of using a string variable (e.g., `filenames`) to contain a list of files?
+2. What are some disadvantages of using a string variable for a list of files, in contrast to a Python list variable?
+3. Can you think of any cases where **you** might use a list of filenames like we generate in this exercise?
+
 ## Problem 2 - Nested `for` loops
 In addition to having single `for` loops that iterate across some variable range, it is possible to *nest* `for` loops within one another.
 Consider the example below:
@@ -83,6 +88,10 @@ For this problem you should create a new Python script `make_flag.py` that does 
     -------------------
     ```
 
+### Questions for Problem 2
+1. If faced with having to reproduce the character patterns in this exercise with a Python script any way you can, how might you approach this problem differently? For example, let's say you did not need to use the variables `star = "*"` and `line = "-"`.
+2. Using nested loops is very common for Python scripts that deal with two-dimensional data such as latitude and longitude, or depth versus distance. Can you think of any cases in which you might use a nested loop in a Python script?
+
 ## Problem 3 - Working with projections using conditional statements
 
 In Python there is a handy way of asking input from the user using `input` function such as:
@@ -101,14 +110,27 @@ Your job in this problem is to create a new Python script `epsg_finder.py` that:
   - If the user says `4326`, the program prints "EPSG value 4326 corresponds to WGS84" to the screen
   - If the user says `3067`, the program prints “EPSG value 3067 corresponds to ETRS-TM35FIN" to the screen
   - If the user says `2392`, the program prints “EPSG value 2392 corresponds to KKJ / Finland zone2" to the screen
-  - If the user enters any other value, the program should print “There are so many spatial references..I don’t know them all, sorry." to the screen
+  - If the user enters any other value, the program should print "There are so many spatial references..I don’t know them all, sorry." to the screen
+
+### Questions for Problem 3
+1. Did you use any `elif` statements in your Python code? If so, can you think of any way in which you could rewrite you code without using `elif` statements? If not, can you think of any way in which you could rewrite your code to include them?
+2. Why did you choose to include or not include `elif` statements in your code? Did it make more sense to use to use them, or was it easier to write your code without?
 
 ## General tips
-1. Your scripts should also follow the format described earlier in the course with a block comment at the start of the file, inline comments describing how it works and good use of blank lines to make the code easy to read.
+1. Create a general template for your new script files and commit it to GitHub right when you start working on your script(s).
+2. Your scripts should also follow the format described earlier in the course with a block comment at the start of the file, inline comments describing how it works and good use of blank lines to make the code easy to read.
+3. Look carefully at the requirements for each exercise and be sure to follow them.
+4. In case you have forgotten, string variables can be added together. For example,
 
+    ```python
+    >>> a = "Taco "
+    >>> b = "time"
+    >>> c = a + b
+    >>> print(c)
+    Taco time
+    ```
+5. The questions after the exercises do not necessarily have correct or incorrect answers, but they are meant to make you think a bit about how you have written your scripts and how they might be applied to your own data/research/studies.
 
 # Answers
 
 ## Problem 1
-
-
